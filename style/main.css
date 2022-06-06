@@ -15,7 +15,6 @@ body {
   font-family: 'Arial', Times, serif;
   color: white;
 }
-
 header .container {
   display: flex;
   align-items: center;
@@ -25,7 +24,7 @@ header .container {
 
 header .logo {
   color: var(--vermelho);
-  font-family: 'Arial Black', Times;
+  font-family: 'Arial', Times;
   font-size: 40px;
 
   margin-left: 5px;
@@ -48,7 +47,7 @@ header nav a:hover {
 /* Filme principal */
 .filme-principal {
   font-size: 16px;
-  background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url('../img/back.png');
+  background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url('../img/back.jpg');
   background-size: cover;
 
   height: 400px;
@@ -62,6 +61,7 @@ header nav a:hover {
 .filme-principal .descricao {
   margin-top: 10px;
   margin-bottom: 40px;
+  font-size: 35px;
 }
 
 .filme-principal .titulo {
@@ -100,6 +100,7 @@ header nav a:hover {
 
 .filme-principal .container {
   width: 70%;
+  border-radius: 10px;
 }
 
 .box-filme {
@@ -119,4 +120,33 @@ header nav a:hover {
 }
 .item{
   width: 260px;
+}
+ol{
+  margin-left: 200px;
+  text-align: left;
+  list-style: circle;
+  font-size: 30px;
+}
+ol>li{
+  margin-bottom: 30px;
+  margin-top: 45px;
+}
+ol>h3{
+  text-indent: -25px;
+}
+ol>p{
+  font-size: 23px;
+  max-width: 900px;
+}
+img{
+  display: inline-block;
+}
+main>a{
+  text-decoration: none;
+  font-size: large;
+  color: #FFF;
+  margin-left: 48%;
+  padding: 15px;
+  border: 5px solid rgb(68, 68, 68);
+  border-radius: 10px;
 }
